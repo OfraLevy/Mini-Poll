@@ -1,0 +1,49 @@
+.option-card {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 15px;
+  padding: 15px 18px;
+  border: 1px solid #e2e8f0;
+  border-radius: 12px;
+  background-color: #ffffff;
+  transition: 0.2s;
+}
+
+.option-card:hover {
+  border-color: #bfdbfe;
+  box-shadow: 0 4px 12px rgba(37, 99, 235, 0.06);
+}
+
+.option-name {
+  margin: 0;
+  font-size: 1.15rem;
+  font-weight: 600;
+  flex: 1;
+}
+
+.vote-result {
+  margin: 0;
+  font-size: 0.95rem;
+  color: #1d4ed8;
+  background-color: #eff6ff;
+  padding: 8px 14px;
+  border-radius: 20px;
+}
+
+.vote-button {
+  width: 42px;
+  height: 42px;
+  border: none;
+  border-radius: 10px;
+  background-color: #2563eb;
+  color: white;
+  font-size: 1.4rem;
+  cursor: pointer;
+  transition: 0.2s;
+}
+
+.vote-button:hover {
+  background-color: #1d4ed8;
+  transform: scale(1.05);
+}
